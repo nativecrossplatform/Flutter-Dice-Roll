@@ -18,7 +18,9 @@ class scaff extends StatelessWidget
     Widget build (BuildContext context)
     {
       return Scaffold(
-        appBar: appBar(),
+        appBar: AppBar(
+          title: Text('Dice Roll App'),,
+        ),
         body: ,
       );
     }
