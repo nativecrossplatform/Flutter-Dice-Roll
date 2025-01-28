@@ -1,7 +1,5 @@
 // ignore_for_file: camel_case_types
-
 import 'package:flutter/material.dart';
-import './app_bar.dart';
 void main()
 {
   runApp(
@@ -19,9 +17,9 @@ class scaff extends StatelessWidget
     {
       return Scaffold(
         appBar: AppBar(
-          title: Text('Dice Roll App'),,
+          title: Text('Dice Roll App')
         ),
-        body: ,
+        body: Column(children: []),
       );
     }
 }
