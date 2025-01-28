@@ -11,5 +11,12 @@ void main()
 }
 class scaff extends StatelessWidget
 {
-
+    const scaff({super.key});
+    Widget build (BuildContext)
+    {
+      return Scaffold(
+        appBar: ,
+        body: ,
+      );
+    }
 }
