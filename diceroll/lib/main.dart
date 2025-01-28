@@ -18,7 +18,7 @@ class scaff extends StatelessWidget
     {
       return Scaffold(
         appBar: AppBar(
-          title: Text('Dice Roll App')
+          title: Center(child: Text('Dice Roll App'))
         ),
         body: Column(children: [roll_dice_button()]),
       );
