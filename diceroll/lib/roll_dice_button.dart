@@ -1,5 +1,6 @@
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, non_constant_identifier_names
 import 'package:flutter/material.dart';
+import './random_dice_number.dart';
 class roll_dice_button extends StatefulWidget
 {
     const roll_dice_button({super.key});
@@ -12,7 +13,38 @@ class _roll_dice_button_state extends State<roll_dice_button>
   Widget build(BuildContext context)
   {
     return (
-          Text('hello')
+          ElevatedButton(onPressed:func_dice_roll, child: Center(child: Text("Roll")))
     );
   }
+}
+void func_dice_roll()
+{
+    int n = randomDiceNumber();
+    switch(n)
+    {
+      case 1:
+      {
+
+      }
+      case 2:
+      {
+        
+      }
+      case 3:
+      {
+        
+      }
+      case 4:
+      {
+        
+      }
+      case 5:
+      {
+        
+      }
+      case 6:
+      {
+        
+      }
+    }
 }
