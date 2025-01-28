@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 void main() {
-  runApp(MaterialApp(home:Text('Hello World'),debugShowCheckedModeBanner: false));
+  runApp(const MaterialApp(home:Text('Hello World'),debugShowCheckedModeBanner: false));
 }
 
 int randomGenerator() {
