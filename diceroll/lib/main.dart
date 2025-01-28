@@ -2,5 +2,14 @@ import 'package:flutter/material.dart';
 
 void main()
 {
-  runApp();
+  runApp(
+    MaterialApp(
+      home:scaff(),
+      debugShowCheckedModeBanner: false,
+    )
+  );
+}
+class scaff extends StatelessWidget
+{
+
 }
