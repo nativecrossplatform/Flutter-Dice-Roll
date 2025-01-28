@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 void main() {
-  runApp(MaterialApp(home:Scaffold(
-        appBar: AppBar(title: Text('DiceRoller'),),
-        body: ,
-        
-
-  ),
-  debugShowCheckedModeBanner: false));
+  runApp(MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Center(child: Text('Dice Roller App')),
+        ),
+        body: Center(child: Text('Test')),
+      ),
+      debugShowCheckedModeBanner: false));
 }
 
 int randomGenerator() {
