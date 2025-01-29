@@ -1,3 +1,4 @@
+import 'package:diceroll/Widgets/dice_roll.dart';
 import 'package:flutter/material.dart';
 
 class GradContainer extends StatelessWidget {
@@ -11,6 +12,7 @@ class GradContainer extends StatelessWidget {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight),
       ),
+      child: DiceRoll(),
     );
   }
 }
