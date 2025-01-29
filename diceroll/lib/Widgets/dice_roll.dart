@@ -14,7 +14,7 @@ class _DiceRollState extends State<DiceRoll> {
       children: [
         Image.asset(path),
         OutlinedButton(
-            onPressed: ()=>{setState(() {path = '$randomDice()';})}, child: Text('ROLL THE DICE !'))
+            onPressed: ()=>{setState(() {path = 'dice-$randomDice().png';})}, child: Text('ROLL THE DICE !'))
       ],
     );
   }
