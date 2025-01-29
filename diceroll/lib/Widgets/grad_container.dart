@@ -6,7 +6,11 @@ class GradContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          gradient: LinearGradient(colors: [Colors.deepPurple, Colors.purple])),
+        gradient: LinearGradient(
+            colors: [Colors.deepPurple, Colors.purple],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight),
+      ),
     );
   }
 }
