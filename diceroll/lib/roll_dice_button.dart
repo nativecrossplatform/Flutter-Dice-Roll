@@ -13,7 +13,7 @@ class _roll_dice_button_state extends State<roll_dice_button>
   Widget build(BuildContext context)
   {
     return (
-          ElevatedButton(onPressed:func_dice_roll, child: Center(child: Text("Roll")))
+          ElevatedButton(style:ElevatedButton.styleFrom(minimumSize: Size(50, 30)),onPressed: func_dice_roll, child: Text('ROLL !'))
     );
   }
 }
