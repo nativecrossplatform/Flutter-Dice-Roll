@@ -22,7 +22,7 @@ class scaff extends StatelessWidget
           backgroundColor: Colors.yellow,
           title: Center(child: Text('Dice Roll App'))
         ),
-        body: Column(children: [roll_dice_button()]),
+        body: Center(child: Column(children: [roll_dice_button()])),
       );
     }
 }
