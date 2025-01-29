@@ -12,7 +12,7 @@ class GradContainer extends StatelessWidget {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight),
       ),
-      child: DiceRoll(),
+      child: Center(child: DiceRoll()),
     );
   }
 }
