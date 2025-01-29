@@ -17,7 +17,9 @@ class scaff extends StatelessWidget
     Widget build (BuildContext context)
     {
       return Scaffold(
+        backgroundColor: Colors.deepPurpleAccent,
         appBar: AppBar(
+          backgroundColor: Colors.yellow,
           title: Center(child: Text('Dice Roll App'))
         ),
         body: Column(children: [roll_dice_button()]),
