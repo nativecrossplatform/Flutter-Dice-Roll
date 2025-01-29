@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import './random_dice_number.dart';
 class DiceRoll extends StatefulWidget {
   const DiceRoll({super.key});
   @override
@@ -14,7 +14,7 @@ class _DiceRollState extends State<DiceRoll> {
       children: [
         Image.asset(path),
         OutlinedButton(
-            onPressed: ()=>{setState(() {path = '';})}, child: Text('ROLL THE DICE !'))
+            onPressed: ()=>{setState(() {path = '$randomDice()';})}, child: Text('ROLL THE DICE !'))
       ],
     );
   }
